@@ -3,8 +3,8 @@
 
 class TicketMachine{
 public:
-    TicketMachine();
-    virtual ~TicketMachine();
+    TicketMachine(); //构造函数
+    virtual ~TicketMachine(); //析构函数
     void showPrompt();
     void insertMoney(int money);
     void showBalance();
